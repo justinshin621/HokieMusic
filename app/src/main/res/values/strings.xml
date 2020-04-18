@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HW4</string>
+    <string-array name="background_musics">
+        <item>Go Tech Go!</item>
+        <item>Enter Sandman</item>
+        <item>Victory March</item>
+    </string-array>
+    <string-array name="overlap1">
+        <item>Clapping</item>
+        <item>Cheering</item>
+        <item>Go Hokies!</item>
+    </string-array>
+    <string-array name="overlap2">
+        <item>Cheering</item>
+        <item>Clapping</item>
+        <item>Go Hokies!</item>
+    </string-array>
+    <string-array name="overlap3">
+        <item>Go Hokies!</item>
+        <item>Clapping</item>
+        <item>Cheering</item>
+    </string-array>
+
+</resources>

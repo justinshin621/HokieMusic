@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/editing">
+
+    <fragment
+        android:id="@+id/editing"
+        android:name="com.example.hw4.editing"
+        android:label="fragment_editing"
+        tools:layout="@layout/fragment_editing" >
+        <action
+            android:id="@+id/action_editing_to_playing"
+            app:destination="@id/playing" >
+            <argument
+                android:name="title"
+                android:defaultValue="Music Title" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/playing"
+        android:name="com.example.hw4.playing"
+        android:label="fragment_playing"
+        tools:layout="@layout/fragment_playing" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_playing_to_editing"
+            app:destination="@id/editing" />
+    </fragment>
+</navigation>
