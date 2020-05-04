@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW4</string>
+    <string name="app_name">Hokie Music</string>
     <string-array name="background_musics">
         <item>Go Tech Go!</item>
         <item>Enter Sandman</item>

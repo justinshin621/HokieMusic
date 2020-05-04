@@ -1,7 +1,6 @@
 package com.example.hw4
 import android.media.AudioAttributes
 import android.media.MediaPlayer
-import android.media.MediaPlayer.SEEK_NEXT_SYNC
 import android.util.Log
 import java.io.IOException
 import java.util.*

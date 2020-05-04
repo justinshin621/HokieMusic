@@ -10,4 +10,5 @@ class MusicCompletionReceiver() : BroadcastReceiver() {
         val musicName = intent.getStringExtra(MusicService.MUSICNAME)
          //mainActivity?.updateName(musicName)
     }
+
 }

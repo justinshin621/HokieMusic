@@ -182,7 +182,6 @@ class playing : Fragment(), View.OnClickListener {
             musicService?.resetMusic()
             play_pause?.setText("Start")
             appendEvent("Restarted song")
-
         }
 
 
